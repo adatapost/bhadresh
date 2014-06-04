@@ -1,0 +1,49 @@
+Casceding StyleSheet - CSS
+====================================================================
+
+ What is CSS?
+
+    CSS is set of instructions for the web-browser to add or apply     style attribtes to existing DOM (HTML Objects). 
+
+    For example,
+
+      To change font size, text color, background color, width, height,       position, transparency (opacity) and many more...
+ 
+  
+ 
+ In other words, CSS is set of style-attributes and web-browser renders or paints HTML object as per specified style-attributes.
+
+
+ There are three ways to set CSS style attribute but the best one is to  define external stylesheet resource or file.
+
+    1. CSS style attributes using "style" attribute of HTML tag.
+
+       e.g
+
+        <p style="color:red;border:1px solid blue">Hello</a>
+
+       *** NOTE *** : DO NOT USE THIS APPROACH.
+
+   2. <style> HTML tag.
+
+      You can define CSS attribute-set using <style> HTML tag
+
+
+       e.g
+            <style>
+              ....
+              ....
+            </style>
+
+         *** NOTE *** : DO NOT USE THIS APPROACH.
+          
+   3. USE External CSS resource or .css file
+
+      This approach allow us to use same set of CSS attributes for more       than one web-page.
+
+       To use external CSS resource we will use <link/> HTML tag.
+
+      e.g
+
+        <link rel="stylesheet" href="filename.css"/>
+

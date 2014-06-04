@@ -1,0 +1,39 @@
+Create and deploy the web application
+======================================================================
+
+After installing WAMP bundle and starting it we can create a web-container or web-context. A web-container or web-context is a folder whose content will be requested and delivered across the network using HTTP protocol.
+
+
+The Document Root folder - C:\wamp\www
+=====================================================================
+
+In this folder (C:\wamp\wwww), we have to create a folder to deploy the website or web-application.
+
+Steps:
+
+  1. Create a folder named "hello" (c:\wamp\www\hello
+  2. Open web-browser and type following at address bar
+
+         http://localhost/hello
+
+  3. Create some web-pages (.html or .htm or .php) into "hello" site 	folder.
+
+      e.g.  
+           first.html
+           ------------
+           <!doctype html>
+           <h1>Welcome to website</h1>
+
+    and type http://localhost/hello/first.html url at addressbar of     web-browser.
+
+
+
+XAMPP
+=========================================
+
+1. c:\xampp\htdocs folder is called "Document Root" and create a site    folder in it.
+
+2. open web-browser and 
+
+    http://localhost/folderName
+

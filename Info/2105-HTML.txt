@@ -1,0 +1,55 @@
+1. <code> tag -- To display text in monospace font.
+
+    <p>The <code>Java</code> and <code>JavaScript</code> are
+       different programming language</p>
+
+
+2. <abbr> -- To abbrivate the term.
+
+    <p><abbr title="Hyper Text Markup Language">HTML</abbr> is a
+       markup <code>language</code></p>
+
+3. <pre> -- To preserve the whitespace. You can use this tag to display text along with whitespace.
+
+<p>
+<pre>
+import java.util.Scanner;
+
+public class HelloApplication
+{
+  public static void main(String [])
+   {
+      System.out.println("Hello");
+    }
+}
+</pre>
+
+<pre>
+   |-------------------------|
+   |                         |
+   |-------------------------|
+</pre>
+
+4. <strong> -- To display text in bold-face
+
+5. <em>  -- To display text in emphesis
+
+  <p>The <strong><code>JavaScript</code></strong> is <em>dynamic language</em></p>
+
+
+6. <i> - Italicise text
+7. <b> - bold text
+8. <u> - Underline text
+9. <sup> - Superscript text
+10. <sub> - Subscript text
+11. <p> - Paragraph text
+12. <br/> - line break
+13. <hr/> - Horizontal rule (line)
+14. <address> - Address text
+15. <q> - smart quote or small quote
+16. <blockquote> -- To quote the sentence.
+
+<p><q>Never give up</q></p>
+
+<blockquote>Do not give up your work</blockquote>
+

@@ -1,0 +1,12 @@
+.box 
+{
+  border:1px solid #aaa;
+   
+  color:red;
+}
+
+.heading
+{
+  text-shadow:3px 3px 3px #aaa;
+  font-size:3em;
+}

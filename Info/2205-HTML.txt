@@ -1,0 +1,131 @@
+<form> tag
+====================================================================
+The <form> tag collect the name-value pair of "data" from input elements and sent them using GET or POST HTTP Request.
+
+
+Generay Syntax :
+
+<form method="post or get"
+      action="program_file.php"
+      enctype="x-urlencoded-form or multipart-formdata"
+      id="unique id for Javascript">
+
+   ......
+   ......
+</form>
+
+
+Submit the form using submit buttons
+=======================================
+
+1. <input type="submit" />
+2. <input type="image" src="image.ext"/>
+
+  You can submit a form or post-back a form using one of the two    buttons.
+
+  You can submit a form using JavaScript code also.
+      
+
+To create form data
+=========================================
+
+ <input type="reset"/> will erase input element values.
+
+
+
+Example:
+
+<!doctype html>
+
+<form> <!-- default request method is GET -->
+
+  <p>
+    <label for="no">Enter no</label>
+    <input type="text" name="no" id="no"/>
+  </p>
+  <p>
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name"/>
+  </p>
+  <p>
+    <input type="submit" value="Add"/>
+    <input type="reset" value="Clear"/>
+  </p>
+
+</form>
+
+Always use <label> tag to display label or caption and use "id" attribute with input elements so user can set focus on clicking at label into the input field.
+
+
+It is important to set name attribute for each input element and also use <label>.
+
+
+Inside the <form> we can use following input elements.
+
+ 1. <input type="text"/> 	-- Single line text
+ 2. <input type="password"/>	-- Password text
+ 3. <input type="radio"/>	-- Radio button
+ 4. <input type="checkbox"/>	-- Checkbox button
+ 5. <input type="date"/>	-- Date text
+ 6. <input type="url"/>		-- Url text
+ 7. <input type="email"/>	-- email text
+ 8. <input type="number"/>	-- Number text
+ 9. <input type="search"/>	-- search text
+10. <input type="color"/>	-- Color selector
+11. <input type="slider"/>	-- Slider selection
+12. <select>			-- Drop downlist
+        <option value="value">Display Text</option>
+    </select>
+13. <select size="4">		-- List box
+        <option value="value">Display Text</option>
+    </select>
+14. <textarea></textarea> 	-- Multiline text
+15. <input type="button"/>	-- Non submit button 
+16. <input type="submit"/>	-- Submit button
+17. <input type="image"/>	-- Submit button
+18. <input type="reset"/>	-- Reset button
+19. <button type="submit or button">Button Text</button>
+				 -- Submit or non-submit button.
+20. <input type="hidden"/>	-- To hide the text
+21. <input type="file"/>	-- File selector
+
+Example:
+
+<!doctype html>
+
+<form>
+<p> Singleline : <input type="text" /></p>
+<br/> password : <input type="password" />
+<br/> Radio : <input type="radio" />
+<br/> Checkbox : <input type="checkbox" />
+<br/> Date : <input type="date" />
+<br/> URL: <input type="url" />
+<br/> Email : <input type="email" />
+<br/> Number : <input type="number" />
+<br/> SEarch: <input type="search" />
+<br/>Color : <input type="color" />
+<br/> Select : 
+  <select>
+     <option value="Meh">Mehsama</option>
+     <option value="Pat">Patan</option>
+     <option value="Sur">Surat</option>
+  </select>
+ <br/><input type="file"/>
+ <br/><input type="submit"/>
+
+</form>
+
+
+
+<fieldset> -- To outline the content. While developing a form, always embed <form> inside the <fieldset>
+
+Ex:
+
+<!doctype html>
+
+<fieldset>
+   <legend>Student Entry Form</legend>
+   <form>
+      .....
+   </form>
+</fieldset>

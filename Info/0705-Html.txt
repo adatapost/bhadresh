@@ -1,0 +1,55 @@
+HTML
+======================================================== 
+HTML - HyperText Markup Language. HTML is a markup language. The markup language draws outline between text/data. The HTML is derived from SGML - Standard Generialize Markup Language.
+
+HTML is used to present data on the web. HTML is not a programming language nor it provide design or style but it is a markup that provide sementics approach to seperate things.
+
+There is another makrup language derived from SGML and it is XML - Extensible Markup Language. 
+
+XML is used to describe the data for computer programs. It is also called data-interchange format.
+
+      e.g
+
+        <student>
+           <roll>10</roll>
+           <name>Raj</name>
+        </student>
+
+   
+HTML has standard tags or elements to present the data on web whereas XML is no standard tags. We can create our own tag to describe the data to programs of different programming languages.
+
+
+In XML, we have to create our own markup (tags). But in HTML, we cannot create new tags/markup. We must have to use standard HTML elements/tags/markup. HTML tags are recommended by the World Wide Web Consortium - w3C - a standards making body (group) of industry experts.
+
+
+HTML is a standard recommended by the W3C and implemented by web-browsers. The current standard of HTML is 5; It is called HTML5. (HTML Five).
+
+Web-browsers are created by of companies and communities. IE - Internet Explorer is created by Microsoft.
+Mozilla is created by open source community.
+Chrome is created by google
+Safari is created by Apple
+
+
+Web-browser
+====================================================================
+
+Web-browser is the complex software exists in our computer, mobile, and  tablet.
+
+Following are the main job of Web-browsers:
+
+  1. It requests the remote computer and programs.
+  2. It receive responses from remote computer and programs.
+  3. It convert HTML tags into HTML objects with the help of HTML      Engine (Implementation of HTML standard).
+
+     Each HTML tag must be converted into HTML object before it is           rendered or print on web-browser.
+
+     The HTML object is also known as Document Object Model (DOM).
+
+  4. It has graphics kit to display data, images, graphics, and
+	animation.
+  5. It has CSS modules to set style attributes like color, font, size
+     width,height, position, background paint etc to the DOM.
+
+  6. It has JavaScript engine to interpreter and execute JavaScript      program.
+  7. It has debug tool so develop can understand and test the web      elements.
+

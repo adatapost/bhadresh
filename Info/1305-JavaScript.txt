@@ -1,0 +1,49 @@
+JavaScript
+======================================================================
+
+What is JavaScript?
+
+ 
+  The JavaScript is dynamic, object-oriented, functional programming   language.
+
+  The JavaScript language specifically used to develop client programs which are executed by the web-browsers but nows a day JavaScript is also used by the server-environment -- NodeJS.
+
+  JavaScript program are embed/insert into web-page using <script> HTML   tag.
+
+   e.g.
+
+   <body>
+     <script>
+        var no  = 10;
+        console.log(no);
+     </script>
+   .... 
+   </body>
+
+ 
+ 1. JavaScript is case-sensitive language
+
+ 2. JavaScript code can be written anywhere within the web-document     using <script> tag.
+
+ 3. JavaScript code is interpreted by the JavaScript engine which is     available with any web-browser.
+
+ 4. JavaScript is not a Java language. Java language is completely     different.
+
+
+
+What is dynamic language?
+
+ 
+  In dynamic language, datatype is assigned to value instead of   variable.
+
+     It means we can store different type data into variable:
+
+     e.g   
+
+            a = 10;  //integer
+
+            a = "Hello";  //String
+
+
+  PHP and JavaScript are example of dynamic language.
+

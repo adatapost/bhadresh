@@ -1,0 +1,96 @@
+HTML Tags
+=====================================================================
+
+HTML document must begins with <!doctype html> and it has one and only one <html> root elements. 
+
+
+<!doctype html>
+
+<html lang="en_us">
+   <head>
+      <meta charset="utf-8"/>
+      <title>Title of web-page</title>
+   </head>
+   <body>
+      <h1>Site Title</h1>
+      ......     
+   </body>  
+</html>
+
+
+<!doctype html>
+---------------
+
+There are two modes in which web-browser render HTML objects. These are quirk mode and standard mode. If you do not specify the <!doctype html> then web-browser enters into "quirk" mode and you will find abnormal behavior and output.
+
+Always use <!doctype html> so your web-browser will start in "Standard mode".
+
+
+sample.html - Without adding <!doctype html>
+----------------------------------------------
+<html lang="en_us">
+   <head>
+      <meta charset="utf-8"/>
+      <title>Title of web-page</title>
+      <style>
+        html { background: black; }
+        body { background: yellow;}
+        h1   { background: red; }
+      </style>
+   </head>
+   <body>
+      <h1>Site Title</h1>
+      <p>This is a sample page</p>    
+   </body>  
+</html>
+
+NOTE: Open this web-page in different web-browser and see the output - background color, margin, width and height of each tag.
+
+Now, add <!doctype html> begin of previous document and see the output.
+
+
+sample.html
+---------------
+<!doctype html>
+
+<html lang="en_us">
+   <head>
+      <meta charset="utf-8"/>
+      <title>Title of web-page</title>
+      <style>
+        html { background: black; }
+        body { background: yellow;}
+        h1   { background: red; }
+      </style>
+   </head>
+   <body>
+      <h1>Site Title</h1>
+      <p>This is a sample page</p>    
+   </body>  
+</html>
+
+
+<head>
+=============
+
+ <head> and its chidren tags are used to instruct the web-browser and  also provide data to the web-browser.
+
+ <meta charset="utf-8"/>  tag instruct the web-browser that the text  encoding scheme is UTF-8 Universal Text Format. UTF encoding scheme allow us to represent text in English and other regional languages (Hindi, Gujarati etc).
+
+ <title> tag insert title text to the web-browser window's title and it  comes after the <meta charset="utf-8"/>
+
+ <link/> tag is used to address the stylesheet resource.
+
+
+<body>
+=================
+
+ <body> and its children tags are used to present the data in web- browser's display area which is called document area. Anything you want to display on web-browser must be placed inside the <body> html tag.
+
+<script>
+==================
+
+To write JavaScript code in web-document, use <script> tag.
+
+
+

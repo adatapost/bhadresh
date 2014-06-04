@@ -1,0 +1,147 @@
+<meta/>
+=====================================
+
+ <meta/> tag has number of usage including :
+
+   1. <meta charset="utf-8"/> To set character-set
+   2. <meta /> - To store page specific meta-data including
+		 search engine keywords, page description, author of
+		 web-page, language of web-page and so on.
+   3. To set response headers.
+
+<h1>,<h2>,....<h6>
+===========================================
+Text heading tags. Always use h1 to h6 to set heading of your text content.
+
+Sementic HTML tags
+===========================================
+These tag includes <div>  -- division
+		   <span> -- seperator 
+		   <label> -- label
+		   <fieldset> -- field set 
+are the html tags which can be used for varities of purposes.
+
+For example,
+
+<!doctype html>
+
+<html>
+ <head>
+    <meta charset="utf-8"/>
+    <title>ABC webpage</title>
+ </head>
+ <body>
+
+  <!-- This is the main container -->
+  <div>
+     <div></div> <!--- Header of web page -->
+     <div></div> <!--- Menu area of web page -->
+     <div></div> <!--- Content of web page -->
+     <div></div> <!--- Footer of web page -->
+  </div>
+
+ </body>
+</html>
+  
+
+HTML 5 document description semetic tags - <header>, <footer>, <nav>, <article>, <aside>, and <section>
+=====================================================================
+
+These tags are more effective then <div>,<span> etc.
+
+For example,
+
+...
+<body>
+ <section>
+    <header></header>
+    <nav></nav>  <!-- for navigation links -->
+    <section>
+       <header></header>
+       <article></article>
+     </section>
+     <footer></footer>
+ </section>
+</body>
+.... 
+ 
+Sample Web-page
+=================
+<!doctype html>
+
+<html lang="en_us">
+   <head>
+      <meta charset="utf-8"/>
+      <title>Title of web-page</title>
+   </head>
+   <body>
+      <div>
+         <header>
+           <h1>ABC Site</h1>
+         </header>
+         <nav>
+           <a href="#">Home</a>
+           <a href="#">About us</a>
+         </nav>
+         <section>
+             <header>
+                <h3>Introduction</h3>
+             </header>
+             <article>
+                <p>This is a test web document which explaint why we whould have to use HTML5 elements.</p>
+             </article>
+         </section>
+         <section>
+             <header>
+                <h3>Chapter - 1</h3>
+             </header>
+             <article>
+                <p>Chapter 1 include the basic information of HTML, CSS and JavaScript language. We wish we could write better content to deliver on the web what we think.</p>
+             </article>
+         </section>
+         <footer>
+            &copy; The ABC WebSite - 2014
+         </footer>
+      </div>  
+   </body>  
+</html>
+
+HTML Tag types
+==========================================================
+There are mainly two types of HTML tags.
+
+ 1. Block elements/tags -- These tags share the width of parent tag or  			   width of web-browser.
+
+ 2. Inline elements/tags -- Width and height of these tags are 			controlled by the content or text they hold.
+
+
+Example of block elements are :
+
+   div, h1,h2,h3,h4,h5,h6, header, section, article, aside, footer,    nav, fieldset, form, table, p etc.
+
+   
+Example of inline elements are:
+
+    span, label, strong, b, i, u, code, abbr etc.
+
+
+Note: We cannot change the height and width of inline element. They are computed from the content they holds.
+
+
+Example:
+
+...
+<body>
+  <h1>First</h1>
+  <h2>Second</h2>
+  <p>Two</p>
+  <p>Three</p>
+</body>
+
+Example: Inline tags
+
+....
+<body>
+      <h1><span>F</span><span>i</span><span>r</span>st</h1>
+      <p>The <code>JavaScript</code> is <strong>programmig</strong> <q>language</q></p>
+</body> 

@@ -1,0 +1,104 @@
+Example: Input and form elements
+====================================================================
+
+Attributes:
+
+1. placeholder -- To display dimm text
+
+  <input type="text" placeholder="Roll No"/>
+
+2. name -- Value of name attribute must begins with alphabet without            space. You can use _ underscrore to seperate words.
+
+   <input type="text" name="roll"/>
+   <textarea name="address"></textarea>
+
+
+<!doctype html>
+
+<html lang="en">
+   <head>
+      <meta charset="utf-8"/>
+      <title>Best Form Practice</title>
+   </head>
+   <body>
+     <h3>Registration Form</h3>
+     <fieldset>
+        <legend>New user registration</legend>
+        <form method="post">
+           <p>
+             <label for="username">Username</label>
+             <input type="text"
+                    name="username"
+                    id="username"
+                    placeholder="Username"/>
+           </p>
+           <p>
+             <label for="password">Password</label>
+             <input type="password"
+                    name="password"
+                    id="password"
+                    placeholder="Password"/>
+           </p>
+           <p>
+             <label for="email">Email</label>
+             <input type="text"
+                    name="email"
+                    id="email"
+                    placeholder="Email"/>
+           </p>
+           <p>
+             <input type="submit" name="cmd" value="Register"/>
+             <input type="reset"/>
+        </form>
+     </fieldset>
+   </body>  
+</html>
+
+
+You can use <table> tag to arrange input elements.
+
+<!doctype html>
+
+<html lang="en">
+   <head>
+      <meta charset="utf-8"/>
+      <title>Best Form Practice</title>
+   </head>
+   <body>
+     <h3>Registration Form</h3>
+     <fieldset>
+        <legend>New user registration</legend>
+        <form method="post">
+            <table>
+               <tr>
+                 <td><label for="username">Username</label></td>
+                 <td><input type="text"
+                    name="username"
+                    id="username"
+                    placeholder="Username"/></td>
+                </tr>
+               <tr>
+                 <td><label for="password">Password</label></td>
+                 <td><input type="password"
+                    name="password"
+                    id="password"
+                    placeholder="Password"/></td>
+                </tr>
+               <tr>
+                 <td><label for="email">Email</label></td>
+                 <td><input type="text"
+                    name="email"
+                    id="email"
+                    placeholder="Email"/></td>
+                </tr>
+               <tr>
+                 <td colspan="2"> 
+                    <input type="submit" name="cmd" value="Register"/>
+                    <input type="reset"/>
+                 </td>
+               </tr>
+            </table>
+        </form>
+     </fieldset>
+   </body>  
+</html>

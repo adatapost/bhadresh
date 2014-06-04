@@ -1,0 +1,123 @@
+CSS - Casceding StyleSheet
+======================================================================
+
+In order to set style attributes to HTML tags (Existing DOM), we must have to define selectors. A selector is CSS code-block which contains one or more style attributes.
+
+We can use different selectors to set style.
+
+  1. *   - Universal selector. It applies to all html tags.
+
+  2. tag selector - HTML tag name is used to define a selector and all 		    style attributes defined in it are applies to that
+		    particular HTML tag(s).
+
+
+  3. class selector -- User-defined name begins with period and it is 
+			glue using "class" attribute of HTML tag.
+
+  4. id selector   -- User-defined name begins with # and it is glued
+		      using "id" attribute of HTML tag.
+
+
+How to define and use selectors?
+==================================================
+
+1. create "styles" folder
+2. create "style.css" file into "styles" folder.
+3. create "sample.html" outside the "styles" folder.
+
+
+|------/styles
+         style.css
+|
+| sample.html
+
+
+style.css
+------------
+* {
+  border:1px solid #f00;
+}
+
+sample.html
+------------
+<!doctype html>
+<html
+  <head>
+     <meta charset="utf-8"/>
+     <title>CSS Practice</title>
+     <link rel="stylesheet" href="styles/style.css"/>
+  </head>
+  <body>
+     <h1>Welcome</h1>
+     <p>Hello World</p>
+     <input type="submit"/>
+  </body>
+</html>
+
+
+Example: Tag Selector
+
+style.css
+-------------
+html 
+{
+  border:1px solid #aaa;
+}
+body
+{
+  background:blue;
+}
+h1
+{
+  color:white;
+}
+p
+{
+  color:red;
+}
+
+sample.html
+---------------
+same as previous example
+
+
+Example: Class selector
+
+style.css
+-------------------------------
+.box 
+{
+  border:1px solid #aaa;
+  width:400px;
+  color:red;
+}
+
+.heading
+{
+  text-shadow:3px 3px 3px #aaa;
+  font-size:3em;
+}
+
+sample.html
+------------
+<!doctype html>
+<html
+  <head>
+     <meta charset="utf-8"/>
+     <title>CSS Practice</title>
+     <link rel="stylesheet" href="styles/style.css"/>
+  </head>
+  <body>
+      <h1 class="heading">Introduction</h1> 
+      <div class="box">
+         HTML is ......
+      </div>
+      <h1 class="heading">Chapter - 1</h1>
+      <div class="box">
+         About HTML tags.... 
+      </div>
+      <input type="submit" class="heading box"/>
+  </body>
+</html>
+
+

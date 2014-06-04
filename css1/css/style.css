@@ -1,0 +1,42 @@
+/* Reset the margins of some HTML elements */
+
+html,body,form,h1,h2,h3,h4,h5,h6,div {
+ margin:0px;
+}
+
+/* tag selector */
+
+body {
+  font-family: serif;
+  font-size:1em;
+}
+
+h1 {
+  font-size:4em;
+}
+h2 {
+ font-size:3em;
+}
+h3 {
+ font-size:2.2em;
+ color:silver;
+}
+
+/* class selector */
+
+.box {
+  border:1px solid black;
+  padding:4px;
+}
+
+/* id selector */
+
+#header {
+  background:red;
+  color:white;
+}
+
+#footer {
+  background:#d44;
+  color:silver;
+}
